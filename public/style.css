@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainnavcont{
+    transition: transform 5 ease-in;
+}
+.navcontainer{
+    height: 100vh;
+    width: 25vw;
+    background-color: rgb(176 160 220);
+    position: absolute;
+    z-index: 2;
+}
+.sidebargo{
+    transform: translate(-10000px, 0);
+}
+.hamicon{
+    height: 23px;
+    margin-top: 5vh;
+    margin-left: 1vw;
+    cursor: pointer;
+    position: absolute;
+    top: .5vh;
+    left: 2vw;
+    z-index: 10;
+}
+.crossicon{
+    margin-top: 0vh;
+    cursor: pointer;
+    width: 23px;
+    position: absolute;
+    left: 20vw;
+    top: 10vh;
+}
+.ulcontainer{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.listitems
+{
+    margin: 1.5rem;
+    font-size: 2rem;
+}
+.atags{
+    text-decoration: none;
+    color: white;
+    /* background-color: grey; */
+}
+.container{
+    /* background-color: yellow; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personalphoto{
+    width: 20vw;
+}
+.contactformcontainer{
+    background-color: wheat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+.inputofform{
+    display: block;
+    width: 75vw;
+    margin: 1.1em;
+    padding: 1.2em;
+    margin-top: 2.5rem;
+}
+.btn{
+    color: rgb(243, 230, 117);
+    background-color: rgb(90, 83, 83);
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 5vh;
+    width: 10vw;
+    border: 2px solid rgb(53, 52, 52);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.firstsubcontainer h1{
+    font-size: 3.5rem;
+}
+.firstsubcontainer .para{
+    font-size: 2.5rem;
+}
+.firstsubcontainer .para2{
+    font-size: 1.75rem;
+}
+.aboutcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutcontainer h1{
+    font-size: 4rem;
+
+}
+.text{
+    font-size: 2rem;
+}
+#card1{
+    position: absolute;
+    top: 20vh;
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+}
+#card2{
+    position: absolute;
+    top: 20vh;
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+}
+#card3{
+    position: absolute;
+    top: 20vh;
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+}
+#card4{
+    position: absolute;
+    top: 20vh;
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+}
+#larrow{
+    position: absolute;
+    top: 50vh;
+    left: 12vw;
+    height: 5vh;
+}
+#rarrow{
+    position: absolute;
+    top: 50vh;
+    right: 12vw;
+    height: 5vh;
+}
+.containerforblog{
+    margin: auto;
+    width: 70%;
+    height: 60vh;
+}
+.blog{
+    padding: 25px;
+}
+.aboutimages
+{
+    position: absolute;
+    left: 0;
+    height: 60vh;
+    width: 60vw;
+}
+@media screen and (max-width: 1000px) {
+    .personalphoto{
+        display: none;
+    }
+}
